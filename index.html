@@ -10,17 +10,19 @@
 </head>
 
 <body>
-    <h1>Etch-a-sketch</h1>
     <div class="content">
         <div class="settings">
             <input type="color" id="colorPicker" value="#0000ff">
             <button id="colorButton" class="colorButton" value="color">Colorize</button>
             <button id="eraseButton" class="eraseButton" value="erase">Erase</button>
             <button id="clearButton" class="clearButton">Clear Canvas</button>
-            <div id="sliderValue" class="sliderValue">16x16</div>
+            <div id="sliderValue" class="sliderValue">Grid: 16x16</div>
             <input type="range" min="1" max="64" value="16" class="slider" id="slider">
         </div>
-        <div id="canvas" class="canvas"></div>
+        <div class="main">
+            <h1>Etch-a-sketch</h1>
+            <div id="canvas" class="canvas"></div>
+        </div>
     </div>
     <script src="js/main.js"></script>
 </body>
