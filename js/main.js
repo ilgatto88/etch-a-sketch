@@ -38,7 +38,7 @@ function updateCurrentSize(size) {
 }
 
 function updateSizeText(size) {
-    sliderText.innerHTML = size + 'x' + size;
+    sliderText.innerHTML = "Grid: " + size + "x" + size;
 }
 
 function updateCurrentMode(target) {
@@ -72,17 +72,17 @@ function drawGrid(size) {
     }
 }
 
-function colorizeCell(event){
+function colorizeCell(event) {
     if (event.type === "mouseover" && !mouseDown) return
     if (currentMode === "color") {
         event.target.style.backgroundColor = colorPicker.value;
     }
-    else if (currentMode === "erase"){
+    else if (currentMode === "erase") {
         event.target.style.backgroundColor = "#ffffff";
     }
 }
 
-function clearGrid(){
+function clearGrid() {
     document.querySelectorAll('.cell').forEach(cell => {
         cell.style.backgroundColor = "#ffffff";
     })
