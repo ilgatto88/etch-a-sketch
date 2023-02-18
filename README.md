@@ -8,9 +8,11 @@ Functionalities:
 - colorize pixels by holding down the left mouse button and moving the cursor
 - color selection
 - erase pixels
+- fill canvas with the currently selected color
 - clear canvas
 - change pixel size using the slider
 
 Lessons learned during this project:
-- how to create a grid using Javascript
+- creating a grid using Javascript
+- using the mousedown and mouseup events
 - adding a color picker to a website
