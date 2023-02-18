@@ -1,6 +1,6 @@
 # The Odin Project: Etch-A-Sketch
 
-Try it [here](https://ilgatto88.github.io/etch-a-sketch/)
+Try it [here](https://ilgatto88.github.io/etch-a-sketch/){:target="_blank"}
 
 Sketchpad created with HTML, CSS and Javascript. Functionalities:
 - colorize pixels by holding down the left mouse button and moving the cursos
